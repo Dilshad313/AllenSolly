@@ -33,6 +33,8 @@ body {
 }
 
 
+
+
 .rvr, .lvr, .heart {
     display: flex;
     align-items: center;
@@ -44,6 +46,11 @@ body {
     border-right: 1px solid #aaa;
     padding-right: 10px;
     height: 30px;
+}
+
+.rvr:hover{
+    color: orange;
+    cursor: pointer;
 }
 
 .lvr {
@@ -72,36 +79,49 @@ body {
 
 
 .navbar {
-    font-weight: bold;
     font-size: 13px;
     display: flex;
-    gap: 10px;
+    gap: 13px;
     flex-wrap: wrap; 
     margin-left: 50px; 
 }
 
+.navbar .text:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 
 .search {
-    display: flex;
-    align-items: center;
-    margin-left: 60px;
-    /* gap: 10px; */
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  gap: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #00205b; /* underline color */
+  width: fit-content;
+}
+
+.search img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
 }
 
 .search input {
-    width: 250px;
-    height: 30px;
-    border: none;
-    border-bottom: 1px solid black;
-    /* text-align: center; */
-    font-weight: bold;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #00205b;
+  width: 250px;
 }
-
 
 .search input:focus {
-    outline: none;
-    border-bottom: 1px solid black;
+  outline: none;
 }
+
 
 
 .del-button {
@@ -121,6 +141,11 @@ body {
   cursor: pointer;
 }
 
+.del-button button:hover{
+    content: "SHOP AT YOUR PREFERRED STORE";
+
+}
+
 .del-button button img {
   width: 24px;
   height: 24px;
@@ -129,19 +154,17 @@ body {
 .del-button .text {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  line-height: 1.2;
 }
 
 .del-button .main-text {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: #00205b; /* dark blue/blackish */
 }
 
 .del-button .sub-text {
-  font-size: 12px;
-  color: #666666;
+  font-size: 10px;
+  color: rgb(99, 48, 48);
 }
 
 
