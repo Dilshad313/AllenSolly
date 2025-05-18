@@ -182,3 +182,33 @@ body {
    height: 600px;
 }
 
+.separate{
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.separate img{
+  width: 200px;
+  height: 200px;
+}
+
+.separate img:hover{
+  cursor: pointer;
+}
+.divider{
+  margin-top: 50px;
+  margin-left: 110px;
+}
+
+.discover{
+  text-align: center;
+}
+
+.discover .change{
+  display: flex;
+}
