@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.top-nav {
+    background-color: rgb(96, 98, 96);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+}
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-nav .vr {
+    border-right: 1px solid #aaa;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.left-nav p {
+    font-size: 10px;
+    margin: 0;
+}
+
+
+.rvr, .lvr, .heart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 13px;
+}
+
+.rvr {
+    border-right: 1px solid #aaa;
+    padding-right: 10px;
+    height: 30px;
+}
+
+.lvr {
+    border-left: 1px solid #aaa;
+    padding-left: 10px;
+}
+
+.heart img, .lvr img, .rvr img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.center-nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    /* justify-content: space-between;  */
+    /* padding-top: 8px;  */
+    /* flex-wrap: wrap; */
+}
+
+.logo img {
+    margin-left: 100px;
+}
+
+
+.navbar {
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+    margin-left: 50px; 
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    /* gap: 10px; */
+}
+
+.search input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+
+.search input:focus {
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+
+.del-button {
+    margin-left: 20px;
+}
+
+.del-button button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(231, 224, 47);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.del-button .sel {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+marquee {
+    font-size: 18px;
+}
