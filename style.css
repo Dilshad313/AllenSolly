@@ -68,6 +68,7 @@ body {
   height: 90px;
   flex-wrap: wrap;
   padding: 0 50px;
+  /* position: fixed; */
 }
 
 .logo img {
@@ -799,7 +800,7 @@ body {
 
 .site-footer {
   display: flex;
-  padding: 15px 50px;
+  padding-top: 15px;
   background: #fff;
   color: #333;
   font-family: sans-serif;
@@ -831,6 +832,10 @@ body {
   text-decoration: none;
   color: #555;
   font-size: 12px;
+}
+
+.newsletter{
+  margin-left: 200px;
 }
 
 .newsletter h3 {
@@ -892,3 +897,41 @@ body {
   height: 24px;
   display: block;
 }
+
+.crafting{
+  padding-left: 100px;
+  padding-right: 80px;
+}
+
+.crafting h3{
+  font-size: 16px;
+  color: #333;
+}
+
+.crafting div{
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
+
+.crafting .para{
+  font-size: 13.5px;
+  color: rgb(55, 55, 55);
+  line-height: 20px;
+}
+
+.bottom-footer{
+  color: #333;
+  font-size: 13px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.bottom-footer span{
+  border-right: 1px solid black;
+  width: 350px;
+}
+
+
