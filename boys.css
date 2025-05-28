@@ -191,3 +191,325 @@ body {
 .separate img:hover {
   cursor: pointer;
 }
+
+.trending-section {
+  padding: 30px;
+  height: 870px;
+  background-color: #0e3051;
+  
+}
+
+.trending-section h2 {
+  font-size: 32px;
+  color: #ffd700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center; 
+  gap: 25px;
+  /* flex-wrap: wrap; */
+}
+
+.product-card {
+  border-radius: 4px;
+  color: white;
+  width: 300px;
+}
+
+.product-card:hover {
+  cursor: pointer;
+}
+
+.product-card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover; 
+  background-position: center;
+}
+
+.product-card .heart{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 30px;
+}
+
+.product-card .heart:hover{
+  width: 22px;
+  height: 22px;
+  
+}
+
+.details {
+  padding-top: 15px;
+}
+.category {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.price {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.color-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.color-dot {
+  width: 15px;
+  height: 15px;
+  border: 3px solid #999;
+  border-radius: 50%;
+}
+
+.color-name {
+  font-size: 13px;
+}
+
+.trending-section .line{
+  width: 87%;
+  height: 2px;
+  background-color: #ffd700;
+  margin-top: 80px;
+  margin-left: 100px;
+
+}
+
+.spotlight {
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.spotlight-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spotlight img {
+  width: 420px;
+  height: 550px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.spotlight img:hover {
+  cursor: pointer;
+}
+
+.spotlight p {
+  position: absolute;
+  margin-top: 500px;
+  height: 40px;
+  width: 240px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 40px;
+  /* font-weight: bold; */
+  font-size: 22px;
+  color: white;
+}
+
+.free-main {
+  width: 100%;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.top-free {
+  display: flex;
+  justify-content: space-evenly; 
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 300px;
+  padding-left: 80px;
+}
+
+.free-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+  gap: 5px;
+}
+
+.free-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.free-label {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #333;
+  padding: 0 5px; 
+}
+
+.site-footer {
+  display: flex;
+  padding-top: 15px;
+  background: #fff;
+  color: #333;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  gap: 100px;
+}
+.footer-col{
+  margin-left: 100px;
+  /* padding-right: 100px;  */
+}
+.footer-col li:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 8px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 12px;
+}
+
+.newsletter{
+  margin-left: 200px;
+}
+
+.newsletter h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-small {
+  height: 30px;
+  width: auto;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin: 12px 0;
+}
+
+.newsletter{
+  width: 400px;
+}
+
+.newsletter-form input {
+  flex: 1;
+  border: none;
+  /* color: rgb(178, 177, 177); */
+  padding: 8px 0;
+  font-size: 14px;
+  background: transparent;
+}
+
+.newsletter-form input:focus {
+  outline: none;
+}
+
+.newsletter-form button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.newsletter-text {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.crafting{
+  padding-left: 100px;
+  padding-right: 80px;
+}
+
+.crafting h3{
+  font-size: 16px;
+  color: #333;
+}
+
+.crafting div{
+  font-weight: bold;
+  font-size: 15px;
+  color: #333;
+}
+
+.crafting .para{
+  font-size: 13.5px;
+  color: rgb(55, 55, 55);
+  line-height: 20px;
+}
+
+.bottom-footer{
+  color: #333;
+  font-size: 13px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.bottom-footer span{
+  border-right: 1px solid black;
+  width: 350px;
+}
+
+.color-shadow{
+  width: 100%;
+  height: 8px;
+  background-image: linear-gradient(to right, blue, violet, pink, orange, yellow);
+}
