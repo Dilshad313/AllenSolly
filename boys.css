@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.top-nav {
+  background-color: rgb(96, 98, 96);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 20px;
+}
+
+.left-nav, .right-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.left-nav .vr {
+  border-right: 1px solid #aaa;
+  padding-right: 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.left-nav p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.rvr, .lvr, .heart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.rvr {
+  border-right: 1px solid #aaa;
+  padding-right: 10px;
+  height: 30px;
+}
+
+.rvr:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.lvr {
+  border-left: 1px solid #aaa;
+  padding-left: 10px;
+}
+
+.heart img, .lvr img, .rvr img {
+  width: 25px;
+  height: 25px;
+}
+
+.center-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  flex-wrap: wrap;
+  padding: 0 50px;
+  /* position: fixed; */
+}
+
+.logo img {
+  width: 170px;
+  height: 60px;
+}
+
+.navbar {
+  font-size: 13px;
+  display: flex;
+  gap: 13px;
+  flex-wrap: wrap;
+}
+
+.navbar .text:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #00205b;
+  width: fit-content;
+}
+
+.search img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.8;
+}
+
+.search input {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  color: #00205b;
+  width: 250px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.del-button {
+  margin-left: 20px;
+}
+
+.del-button button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  background-color: rgb(255, 221, 0);
+  border: none;
+  border-radius: 25px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.del-button button:hover {
+  opacity: 0.85;
+}
+
+.del-button button img {
+  width: 24px;
+  height: 24px;
+}
+
+.del-button .text {
+  display: flex;
+  flex-direction: column;
+}
+
+.del-button .main-text {
+  font-weight: bold;
+  font-size: 12px;
+  color: #00205b;
+}
+
+.del-button .sub-text {
+  font-size: 10px;
+  color: rgb(99, 48, 48);
+}
+
+.fashion img {
+  margin-left: 60px;
+  display: block;
+}
+
+.header {
+  background-image: url(./boys_img/header.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+}
+
+.boys-sec h1{
+  color: #031536;
+  text-align: center;
+}
+
+.separate {
+  margin: 20px 80px;
+  display: flex;
+  gap: 25px;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.separate img {
+  width: 200px;
+  height: 200px;
+}
+
+.separate img:hover {
+  cursor: pointer;
+}
