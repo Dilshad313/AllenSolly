@@ -45,7 +45,7 @@ nav{
   width: 35px;
   height: 38px;
   display: flex;
-  margin-left: 750px;
+  margin-left: 743px;
 }
 
 .small-logo p{
@@ -53,3 +53,125 @@ nav{
   text-align: center;
 }
 
+.full-section{
+  width: 70%;
+  margin-left: 250px;
+}
+
+.full-section p{
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.hr-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.hr-container hr {
+  flex: 1;
+  /* border: none; */
+  height: 1px;
+  background-color: #ccc;
+  color: black;
+  font-weight: bold;
+}
+
+.hr-container span {
+  margin: 0 15px;
+  font-size: 18px;
+  color: black;
+}
+
+.denomination{
+  display: flex;
+  justify-content: space-between;
+}
+
+.denomination input{
+  width: 520px;
+  height: 35px;
+  font-size: 13px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.denomination p{
+  text-align: right;
+  color: rgb(79, 79, 79);
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+.section {
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+}
+
+.title {
+  margin: 15px 0 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 15px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  position: relative;
+}
+
+.button:hover{
+  background-color: gray;
+}
+
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.circle-se .inner{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 3.5px;
+  margin-top: 3.5px;
+}
+
+.circle-se {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.gift-card{
+  display: flex;
+  margin-left: 480px;
+  outline: 2px solid rgb(13, 132, 202);
+  width: 98px;
+  height: 83px;
+  border-radius: 5px;
+}
+
+.gift-card img{
+  margin: auto;
+  width: 90px;
+}
