@@ -175,3 +175,125 @@ nav{
   margin: auto;
   width: 90px;
 }
+
+
+.name{
+  display: flex;
+  gap: 25px;
+}
+.name input{
+  width: 250px;
+  height: 34px;
+  font-size: 12px;
+  border: none;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 5px;
+}
+
+.sender .linput{
+  width: 525px;
+  height: 34px;
+  font-size: 12px;
+  border: none;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 5px;
+}
+
+.receiver{
+  margin-left: 550px;
+  margin-top: -197px;
+}
+
+.receiver .rec{
+  display: flex;
+  justify-content: space-between;
+}
+
+.receiver .linput{
+  width: 525px;
+  height: 34px;
+  font-size: 12px;
+  border: none;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 5px;
+}
+
+.receiver .check{
+  width: 18px;
+  height: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+  
+}
+
+.receiver .rec label{
+  font-size: 12px;
+  color: rgb(79, 79, 79);
+  text-align: center;
+}
+
+.sr-details .b-item{
+  text-align: right;
+  color: gray;
+  font-size: 12px;
+}
+
+.receiver .ltextarea{
+  width: 525px;
+  height: 50px;
+  font-size: 12px;
+  border: none;
+  border: 1px solid rgb(189, 187, 187);
+  border-radius: 5px;
+}
+
+.preview button{
+  margin-left: 450px;
+  border: none;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 180px;
+  font-size: 13px;
+}
+
+.preview button:hover{
+  background-color: red;
+  color: white;
+}
+
+.payment{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.payment input{
+  width: 200px;
+  font-size: 12px;
+  height: 35px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  border: 1px solid rgb(189, 187, 187);
+}
+
+.payment button{
+  width: 60px;
+  font-size: 13px;
+  height: 35px;
+  border: none;
+  background-color: white;
+  border: 1px solid rgb(189, 187, 187);
+  color: red;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.payment button:hover{
+  background-color: red;
+  color: white;
+}
+
